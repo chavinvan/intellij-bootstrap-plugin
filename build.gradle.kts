@@ -34,6 +34,7 @@ intellij {
     plugins.set(properties("platformPlugins").split(',').map(String::trim).filter(String::isNotEmpty))
 }
 
+
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
     version.set(properties("pluginVersion"))
@@ -88,6 +89,12 @@ tasks {
                 getOrNull(properties("pluginVersion")) ?: getLatest()
             }.toHTML()
         })
+    }
+
+    runIde {
+        // Absolute path to the installed targetIDE to use as IDE Development Instance
+        // Note the Contents directory must be added at the end of the path for macOS.
+        ideDir.set(file("/apps/phpstorm/"))
     }
 
     // Configure UI tests plugin
