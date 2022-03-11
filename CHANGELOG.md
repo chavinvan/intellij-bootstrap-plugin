@@ -1,7 +1,10 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# intellij-bootstrap-plugin Changelog
+# Bootstrap 5 Templates Plugin Changelog
 
 ## [Unreleased]
+
+## [0.0.1]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Bootstrap 5 Templates
+- Support for PHP Storm
