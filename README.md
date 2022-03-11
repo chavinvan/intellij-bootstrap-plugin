@@ -34,6 +34,10 @@ It currently supports Bootstrap 5 and PHPStorm.
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
+## Usage
+
+To use the plugin, open an editor, and start typing bs5- for Bootstrap 5 templates followed by pressing CMD+J. A list of templates will show up. Alternatively, you can type e.g. alert, followed by CMD+J, to immediately show only the alert templates.
+
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
