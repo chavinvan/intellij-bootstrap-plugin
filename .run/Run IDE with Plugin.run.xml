@@ -2,6 +2,14 @@
   <configuration default="false" name="Run Plugin" type="GradleRunConfiguration" factoryName="Gradle">
     <log_file alias="idea.log" path="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" />
     <ExternalSystemSettings>
+      <option name="env">
+        <map>
+          <entry key="CERTIFICATE_CHAIN" value="$PROJECT_DIR$/../keys/private_intellij_bs_plugin_chain.crt" />
+          <entry key="PRIVATE_KEY" value="$PROJECT_DIR$/../keys/private_intellij_bs_plugin.pem" />
+          <entry key="PRIVATE_KEY_PASSWORD" value="INTELLIJHU3L3AT3TAPLUGIN" />
+          <entry key="PUBLISH_TOKEN" value="perm:c2VyZ2lvLm11bm96.OTItNTcxOQ==.ADfZvg7B0cGFZbMSevtNrTqxY3aP0L" />
+        </map>
+      </option>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
       <option name="externalSystemIdString" value="GRADLE" />
