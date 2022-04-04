@@ -5,8 +5,6 @@
     <vendor>Grupo de Sistemas Inteligentes (UPM)</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-    <!-- Targeting PhpStorm, so is dependent on the PHP plugin -->
-    <depends>com.jetbrains.php</depends>
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
